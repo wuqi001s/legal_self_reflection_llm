@@ -109,7 +109,7 @@ def main():
     parser.add_argument("--max-lora-samples", type=int, default=10000, help="Max LORA samples to process")
     parser.add_argument("--num-distill", type=int, default=1000, help="Number of samples to distill")
     parser.add_argument("--adversarial-ratio", type=float, default=0.15, help="Adversarial negative ratio")
-    parser.add_argument("--openrouter-key", default="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",
+    parser.add_argument("--openrouter-key", default="",
                         help="OpenRouter API key")
     parser.add_argument("--teacher-model", default="deepseek/deepseek-v3.2",
                         help="Teacher model name")
