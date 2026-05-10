@@ -298,7 +298,7 @@ def main():
                         help="Max retrieval iterations")
     parser.add_argument("--negative-ratio", type=float, default=0.15,
                         help="Negative sample ratio")
-    parser.add_argument("--openrouter-key", default="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",
+    parser.add_argument("--openrouter-key", default="",
                         help="OpenRouter API key")
     parser.add_argument("--teacher-model", default="deepseek/deepseek-v3.2",
                         help="Teacher model name")
